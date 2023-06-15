@@ -34,6 +34,14 @@ bullseye_arm64 = _distro {
   release = ['debian-11-arm64']
   presubmit = ['debian-11-arm64']
 }
+bookworm = _distro {
+  release = ['debian-12']
+  presubmit = ['debian-12']
+}
+bookworm_arm64 = _distro {
+  release = ['debian-12-arm64']
+  presubmit = ['debian-12-arm64']
+}
 bionic = _distro {
   release = [
     'ubuntu-1804-lts',
